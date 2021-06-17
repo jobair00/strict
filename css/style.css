@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/*header section css start here*/
+
+
+.headerpart {
+    background: #f6f9f9;
+    overflow: hidden;
+}
+
+.header img {
+    display: block;
+    float: left;
+    padding: 20px 0;
+}
+
+.banner {
+    background: url(../images/banner.png) no-repeat;
+    padding: 70px 0;
+    background-size: cover;
+}
+
+.headsection {
+    text-align: center;
+}
+
+.headsection h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 120px;
+    color: #f6f9f9;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+hr {
+    border: 1px solid #15a4fa;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.headsection p {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #f6f9f9;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.bannerbtn {
+    padding: 15px 31px;
+    border: 1px solid #15a4fa;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    display: block;
+    margin: 75px auto 60px;
+}
+
+.fa-angle-down {
+    padding: 20px;
+    font-size: 40px;
+    color: white;
+    font-weight: 400;
+    margin-top: 50px;
+    transition: all 0.4s ease;
+}
+
+.fa-angle-down:hover {
+    color: #15a4fa;
+}
+
+/*header section css end here*/
+
+/*content section css start here*/
+.content {
+    background: #f6f9f9;
+    text-align: center;
+}
+
+.article {
+    padding: 70px 0;
+}
+
+.article h2 {
+    font-family: 40px;
+    font-family: 'Lato', sans-serif;
+    color: #2d3950;
+    padding: 20px 0 10px 0;
+}
+
+.article p {
+    font-family: 'Lato', sans-serif;
+    color: #999999;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+/*content section css end here*/
+
+/*service section css start here*/
+.servicebox {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.servicebox .fa {
+    font-size: 64px;
+    color: white;
+    padding: 20px 19px;
+    border: 1px solid;
+    background: linear-gradient(to left, #48baff 50%, #74c7f9 50%);
+    margin-bottom: 10px;
+}
+
+.servicebox .fa-mobile {
+    font-size: 64px;
+    padding: 20px 40px;
+}
+
+.servicebox h3 {
+    font-size: 22px;
+    padding-top: 10px;
+    font-family: 'Lato', sans-serif;
+    color: #2d3950;
+}
+
+.servicebox p {
+    font-size: 15px;
+    padding: 0 20px;
+    font-family: 'Lato', sans-serif;
+    color: #999999;
+    ;
+    margin: 10px;
+}
+
+/*service section css end here*/
+
+
+/*portfolio section css start here*/
+.portfolio-bg {
+    background: #f6f9f9;
+    padding: 100px 0;
+}
+
+.headerfile {
+    text-align: center;
+}
+
+.portfolio-box {
+    margin-top: 50px;
+}
+
+.portfolio-item {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.portfolio-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(43, 172, 247, 0);
+    top: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.portfolio-hover ul {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    text-align: center;
+    top: 40%;
+}
+
+.portfolio-hover ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.portfolio-hover .fa {
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 40px;
+    opacity: 0;
+}
+
+.portfolio-item:hover .portfolio-hover {
+    background: rgba(43, 172, 247, 0.6);
+    cursor: pointer;
+}
+
+.portfolio-hover:hover .fa {
+    opacity: 1;
+}
+
+/*portfolio section css end here*/
+
+/*contact section css start here*/
+.contactbg {
+    background: url(../images/formbg.png) no-repeat center;
+    background-size: cover;
+    padding: 75px 0;
+}
+
+.contactbg h2 {
+    text-align: center;
+    font-size: 41px;
+    color: #ffffff;
+}
+
+.contactbg p {
+    text-align: center;
+    font-size: 15px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.form-control {
+    background: transparent;
+    padding: 10px;
+    height: 50px;
+}
+
+.form-check {
+    float: left;
+    color: white;
+}
+
+.btn-contact {
+    border: 1px solid #15a4fa;
+    padding: 10px 25px;
+    color: white;
+    float: right;
+    text-transform: uppercase;
+    transition: 0.4s ease-out;
+}
+
+.btn-contact:hover {
+    background: #15a4fa;
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+
+/*contact section css end here*/
+
+/*footer section css start here*/
+footer {
+    padding: 20px 0 5px;
+}
+
+footer p {
+    color: #aeafaf;
+    margin-top: 10px;
+}
+
+.socialicon {
+    float: right;
+}
+
+.socialicon ul {
+    padding: 0;
+}
+
+.socialicon ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+.socialicon .fa {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: #15a4fa;
+    color: white;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.socialicon .fa:hover {
+    color: #aeafaf;
+    cursor: pointer;
+}
+
+/*footer section css end here*/
+
+
+/*Media Query For Mobile Device*/
+
+@media(min-width: 0px)and (max-width:500px) {
+    .headsection h1 {
+        font-size: 60px;
+    }
+
+    .banner {
+        padding: 30px 0;
+    }
+
+    .bannerbtn {
+        margin: 20px auto 20px;
+    }
+
+    .fa-angle-down {
+        margin-top: 10px;
+    }
+
+    .article {
+        padding: 40px 0;
+    }
+
+    .servicebox {
+        padding: 17px 0;
+    }
+
+    .portfolio-bg {
+        padding: 40px 0;
+    }
+
+    .btn-contact {
+        float: initial;
+        margin: 0 auto;
+    }
+
+    .socialicon {
+        float: initial;
+    }
+}
